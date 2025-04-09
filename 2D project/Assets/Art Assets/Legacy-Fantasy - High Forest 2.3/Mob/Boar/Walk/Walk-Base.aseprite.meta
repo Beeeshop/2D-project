@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -244,13 +245,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1433832887
+    guid: 1327070893
     name: Walk-Base
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Walk-Base_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -259,7 +260,7 @@ ScriptedImporter:
         width: 41
         height: 27
       spriteId: fdba4ff0d7f874844ada1a8b0fc5b52f
-    - name: Walk-Base_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -268,7 +269,7 @@ ScriptedImporter:
         width: 42
         height: 26
       spriteId: 5a63f2939d2354643b574d9e78b39eee
-    - name: Walk-Base_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -277,7 +278,7 @@ ScriptedImporter:
         width: 43
         height: 27
       spriteId: b84590e41a1f9ed47870b7d28274bb45
-    - name: Walk-Base_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -286,7 +287,7 @@ ScriptedImporter:
         width: 42
         height: 27
       spriteId: 26fa657837075fa47b87bb3c7ec79209
-    - name: Walk-Base_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -295,7 +296,7 @@ ScriptedImporter:
         width: 38
         height: 26
       spriteId: ca460882d2b7c964c90de022388a5e85
-    - name: Walk-Base_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -311,3 +312,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 48, y: 32}
+  previousTextureSize: {x: 128, y: 128}

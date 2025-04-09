@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -284,13 +285,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1104123150
+    guid: 1246915270
     name: Attack-01
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Attack-01_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +300,7 @@ ScriptedImporter:
         width: 35
         height: 44
       spriteId: 4dbd3a347c837a34580c83e1bd688acb
-    - name: Attack-01_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +309,7 @@ ScriptedImporter:
         width: 54
         height: 64
       spriteId: 92456c512c86e1b468d587e5f5656d18
-    - name: Attack-01_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +318,7 @@ ScriptedImporter:
         width: 35
         height: 60
       spriteId: e3039b47dcf38f3408c9f03c7a4b801e
-    - name: Attack-01_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +327,7 @@ ScriptedImporter:
         width: 35
         height: 48
       spriteId: 2ddd19cfc040f0148a84c9074169823c
-    - name: Attack-01_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +336,7 @@ ScriptedImporter:
         width: 35
         height: 48
       spriteId: 6f897b4f247678245b8555b9188e4360
-    - name: Attack-01_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +345,7 @@ ScriptedImporter:
         width: 61
         height: 65
       spriteId: 2d772755dcd745f4b90f991909599fae
-    - name: Attack-01_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +354,7 @@ ScriptedImporter:
         width: 54
         height: 44
       spriteId: 8fa5f0de4cea60748bc725cb4e2a5c69
-    - name: Attack-01_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -369,3 +370,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 96, y: 80}
+  previousTextureSize: {x: 128, y: 256}
