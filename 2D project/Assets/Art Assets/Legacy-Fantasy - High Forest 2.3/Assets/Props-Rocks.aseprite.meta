@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -133,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 284
       height: 329
-    spriteID: c0f5448768893aa4fa20366158af9b74
+    spriteID: f3b6cd5f18df3b047a11c7597301caaa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -145,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 2139806385
+    guid: -900389763
     name: Props-Rocks
     layerFlags: 0
     layerType: 0
@@ -159,7 +158,7 @@ ScriptedImporter:
         y: 7
         width: 284
         height: 329
-      spriteId: c0f5448768893aa4fa20366158af9b74
+      spriteId: f3b6cd5f18df3b047a11c7597301caaa
     linkedCells: []
     parentIndex: -1
   platformSettings: []
@@ -167,4 +166,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 288, y: 336}
-  previousTextureSize: {x: 512, y: 512}
