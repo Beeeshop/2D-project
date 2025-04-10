@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 236284435}
   - component: {fileID: 236284434}
   - component: {fileID: 236284436}
+  - component: {fileID: 236284438}
   m_Layer: 8
   m_Name: Boar
   m_TagString: Untagged
@@ -279,7 +280,7 @@ Transform:
   m_GameObject: {fileID: 236284428}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.61, y: 0.06, z: 0}
+  m_LocalPosition: {x: -1.25, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -394,6 +395,29 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &236284438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236284428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 443171638ec91b34a84393c9f85b2736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manual: 1
+  bottomOffset: {x: -1.3, y: 0}
+  leftOffset: {x: -1.09, y: 0.67}
+  rightOffset: {x: 0.73, y: 0.66}
+  checkRaduis: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  isGround: 0
+  touchLeftWall: 0
+  touchRightWall: 0
 --- !u!1 &399496552
 GameObject:
   m_ObjectHideFlags: 0
@@ -1379,12 +1403,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443171638ec91b34a84393c9f85b2736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manual: 0
   bottomOffset: {x: -0.05, y: 0}
+  leftOffset: {x: -0.42, y: 0.93}
+  rightOffset: {x: 0.27, y: 0.93}
   checkRaduis: 0.08
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
   isGround: 1
+  touchLeftWall: 0
+  touchRightWall: 0
 --- !u!95 &882700549
 Animator:
   serializedVersion: 5
@@ -3557,7 +3586,7 @@ CompositeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:

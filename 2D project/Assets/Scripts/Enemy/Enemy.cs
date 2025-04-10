@@ -8,6 +8,8 @@ public class Enemy : MonoBehaviour
     Rigidbody2D rb;
 
     protected Animator anim;
+    PhysicsCheck physicsCheck;
+    [Header("基本参数")]
 
     public float normalSpeed;
 
@@ -21,12 +23,18 @@ public class Enemy : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        physicsCheck = GetComponent<PhysicsCheck>();
+
         currentSpeed = normalSpeed;
     }
 
     private void Update()
     {
         faceDir = new Vector3(-transform.localScale.x, 0, 0);
+        if(physicsCheck.touchLeftWall||physicsCheck.touchRightWall)
+        {
+            transform.localScale = new Vector3(faceDir.x, 1, 1);
+        }
 
     }
     private void FixedUpdate()
