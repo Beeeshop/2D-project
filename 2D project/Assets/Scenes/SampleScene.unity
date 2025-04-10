@@ -1102,7 +1102,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  isGround: 0
+  isGround: 1
 --- !u!95 &882700549
 Animator:
   serializedVersion: 5
@@ -2712,7 +2712,7 @@ Tilemap:
       - {fileID: 1116059584, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
       - {fileID: 81987490, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
       - {fileID: -1912300389, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
-      m_AnimationSpeed: 7.0000005
+      m_AnimationSpeed: 7
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 4, y: 1, z: 0}
