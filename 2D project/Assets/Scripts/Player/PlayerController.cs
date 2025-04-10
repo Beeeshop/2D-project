@@ -7,12 +7,18 @@ public class PlayerController : MonoBehaviour
 {
     public PlayerInputControl InputControl;
     public Vector2 inputDirection;
-    [Header("»ù±¾²ÎÊý")]
+    [Header("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½")]
     private Rigidbody2D rb;
     private PhysicsCheck physicsCheck;
 
     public float speed;
     public float jumpForse;
+
+    public float hurtForce;
+    public bool isHurt;
+
+    public bool isDead;
+    
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -39,7 +45,8 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Move();
+        if(!isHurt)
+            Move();
 
     }
 
@@ -61,6 +68,21 @@ public class PlayerController : MonoBehaviour
         // Debug.Log("JUMP");
         if(physicsCheck.isGround)
             rb.AddForce(transform.up * jumpForse, ForceMode2D.Impulse);
+    }
+
+    public void GetHurt(Transform attacker)
+    {
+        isHurt = true;
+        rb.velocity = Vector2.zero;
+        Vector2 dir = new Vector2((transform.position.x - attacker.position.x),0).normalized;
+
+        rb.AddForce(dir*hurtForce, ForceMode2D.Impulse);
+    }
+
+    public void PlayerDead()
+    {
+        isDead = true;
+        InputControl.Gameplay.Disable();
     }
 
 }
