@@ -21,7 +21,12 @@ public class PlayerController : MonoBehaviour
     public bool isDead;
 
     public bool isAttack;
-    
+
+    [Header("物理材质")]
+    public PhysicsMaterial2D normal;
+    public PhysicsMaterial2D wall;
+    public Collider2D coll;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -31,6 +36,8 @@ public class PlayerController : MonoBehaviour
         InputControl.Gameplay.Jump.started += Jump;
         //攻击
         InputControl.Gameplay.Attack.started += PlayerAttack;
+
+        coll = GetComponent<Collider2D>();
     }
 
     private void OnEnable()
@@ -47,11 +54,12 @@ public class PlayerController : MonoBehaviour
     {
         inputDirection = InputControl.Gameplay.Move.ReadValue<Vector2>();
 
+        CheckState();
     }
 
     private void FixedUpdate()
     {
-        if(!isHurt)
+        if(!isHurt && !isAttack)
             Move();
 
     }
@@ -94,5 +102,9 @@ public class PlayerController : MonoBehaviour
     {
         isDead = true;
         InputControl.Gameplay.Disable();
+    }
+    private void CheckState()
+    {
+        coll.sharedMaterial = physicsCheck.isGround ? normal : wall;
     }
 }
