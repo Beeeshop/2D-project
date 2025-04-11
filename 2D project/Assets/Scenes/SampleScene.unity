@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 236284434}
   - component: {fileID: 236284436}
   - component: {fileID: 236284438}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Boar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4733,7 +4733,7 @@ Tilemap:
       - {fileID: 791930763, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
       - {fileID: -194041976, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
       - {fileID: -231894655, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
-      m_AnimationSpeed: 7.0000005
+      m_AnimationSpeed: 7
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 3, y: 1, z: 0}
@@ -4821,7 +4821,7 @@ Tilemap:
       - {fileID: -977528765, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
       - {fileID: 692662103, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
       - {fileID: 963153341, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
-      m_AnimationSpeed: 7.0000005
+      m_AnimationSpeed: 7
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 5, y: 3, z: 0}
@@ -4898,7 +4898,7 @@ Tilemap:
       - {fileID: 791930763, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
       - {fileID: -194041976, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
       - {fileID: -231894655, guid: eaa09dfeaed7bec4b8560b5a5d88241c, type: 3}
-      m_AnimationSpeed: 7.0000005
+      m_AnimationSpeed: 7
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:

@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if(!isHurt&isDead)
+        if(!isHurt&&!isDead)
             Move();
 
     }
@@ -99,9 +99,11 @@ public class Enemy : MonoBehaviour
     }
     public void OnDie()
     {
+
         gameObject.layer = 2;
         anim.SetBool("dead", true);
         isDead = true;
+        
     }
     public void DestroyAfterAnimation ()
     {
