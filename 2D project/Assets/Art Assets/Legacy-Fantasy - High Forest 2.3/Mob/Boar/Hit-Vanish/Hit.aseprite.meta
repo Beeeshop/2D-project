@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 35
       height: 30
-    spriteID: 622c8ece5cd6c0244b1af62665c243c2
+    spriteID: 016ab23889ef42e4f8d3ddf7dbd0b0a9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 35
       height: 30
-    spriteID: ef0acef7a3c717949bec9d7a0b4decc5
+    spriteID: ea82cb176a3c038468e069664c041d6e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 42
       width: 35
       height: 30
-    spriteID: 54cbdea05d74996498dc20535bf2083c
+    spriteID: cf1f24681b36be84296e6fff55db44b1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 42
       width: 35
       height: 30
-    spriteID: c3dab070792bf074c974cc94f87efd44
+    spriteID: 1669ea357012a9149b8fa3cb03742a69
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -204,13 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 339800437
+    guid: 1756787313
     name: Hit
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Hit_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -218,8 +218,8 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 30
-      spriteId: 622c8ece5cd6c0244b1af62665c243c2
-    - name: Frame_1
+      spriteId: 016ab23889ef42e4f8d3ddf7dbd0b0a9
+    - name: Hit_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -227,8 +227,8 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 30
-      spriteId: ef0acef7a3c717949bec9d7a0b4decc5
-    - name: Frame_2
+      spriteId: ea82cb176a3c038468e069664c041d6e
+    - name: Hit_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -236,8 +236,8 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 30
-      spriteId: 54cbdea05d74996498dc20535bf2083c
-    - name: Frame_3
+      spriteId: cf1f24681b36be84296e6fff55db44b1
+    - name: Hit_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -245,7 +245,7 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 30
-      spriteId: c3dab070792bf074c974cc94f87efd44
+      spriteId: 1669ea357012a9149b8fa3cb03742a69
     linkedCells: []
     parentIndex: -1
   platformSettings: []

@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 480
       height: 272
-    spriteID: 8e31ec3b7f297644f8798786f3420b93
+    spriteID: c17f517560316e94385fb472dcba5a5a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1601833069
+    guid: 272568585
     name: Cover
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 480
         height: 272
-      spriteId: 8e31ec3b7f297644f8798786f3420b93
+      spriteId: c17f517560316e94385fb472dcba5a5a
     linkedCells: []
     parentIndex: -1
   platformSettings: []

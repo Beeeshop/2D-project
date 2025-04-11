@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 53
       width: 33
       height: 33
-    spriteID: 14f5c80a957723e4d94ed39330e03114
+    spriteID: 55bd5f45a0d6847429289985662db117
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 53
       width: 34
       height: 37
-    spriteID: 1cefc36ef41bb6a4a8cc858008f48f82
+    spriteID: d54bfc1f5efd1734a850d1be3efa763a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 4
       width: 37
       height: 38
-    spriteID: cae5181368d998c4b82a434891ac49d2
+    spriteID: f131e0cd6a9bc804c9700f83308bee4f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 41
       height: 41
-    spriteID: 82e865d3ba101604cbec4c9900fdd3dc
+    spriteID: 2b77acc8c5c261d43b155f0cf7ccfdf7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -204,13 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -143874694
+    guid: -1283678670
     name: Attack
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Attack_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -218,8 +218,8 @@ ScriptedImporter:
         y: 19
         width: 33
         height: 33
-      spriteId: 14f5c80a957723e4d94ed39330e03114
-    - name: Frame_1
+      spriteId: 55bd5f45a0d6847429289985662db117
+    - name: Attack_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -227,8 +227,8 @@ ScriptedImporter:
         y: 17
         width: 34
         height: 37
-      spriteId: 1cefc36ef41bb6a4a8cc858008f48f82
-    - name: Frame_2
+      spriteId: d54bfc1f5efd1734a850d1be3efa763a
+    - name: Attack_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -236,8 +236,8 @@ ScriptedImporter:
         y: 17
         width: 37
         height: 38
-      spriteId: cae5181368d998c4b82a434891ac49d2
-    - name: Frame_3
+      spriteId: f131e0cd6a9bc804c9700f83308bee4f
+    - name: Attack_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -245,7 +245,7 @@ ScriptedImporter:
         y: 18
         width: 41
         height: 41
-      spriteId: 82e865d3ba101604cbec4c9900fdd3dc
+      spriteId: 2b77acc8c5c261d43b155f0cf7ccfdf7
     linkedCells: []
     parentIndex: -1
   platformSettings: []

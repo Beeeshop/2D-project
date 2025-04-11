@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 1319
       height: 1200
-    spriteID: 757b8a06deb4bfc4191b702a0dc788b8
+    spriteID: 0a42dce65f229644b9349fca0ca2f913
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 781660836
+    guid: 1081706580
     name: Red-Tree
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 1319
         height: 1200
-      spriteId: 757b8a06deb4bfc4191b702a0dc788b8
+      spriteId: 0a42dce65f229644b9349fca0ca2f913
     linkedCells: []
     parentIndex: -1
   platformSettings: []

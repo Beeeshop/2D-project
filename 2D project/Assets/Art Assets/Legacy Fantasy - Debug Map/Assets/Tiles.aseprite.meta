@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 416
       height: 464
-    spriteID: c781958378ba6d047b582124b6c261a7
+    spriteID: bc9c6298f38ffc4409e9ffd2238ed8a5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -649846117
+    guid: -290870689
     name: Tiles
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 416
         height: 464
-      spriteId: c781958378ba6d047b582124b6c261a7
+      spriteId: bc9c6298f38ffc4409e9ffd2238ed8a5
     linkedCells: []
     parentIndex: -1
   platformSettings: []

@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 672
       height: 384
-    spriteID: c33d9aa9de3793c4f87892e4327fa5f7
+    spriteID: 334af6bd39d65a8409e0a0572aff6d5a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 2057279861
+    guid: 696318577
     name: MockUp_01
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 672
         height: 384
-      spriteId: c33d9aa9de3793c4f87892e4327fa5f7
+      spriteId: 334af6bd39d65a8409e0a0572aff6d5a
     linkedCells: []
     parentIndex: -1
   platformSettings: []

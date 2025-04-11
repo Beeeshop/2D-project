@@ -6,7 +6,7 @@ public class PhysicsCheck : MonoBehaviour
 {
     private CapsuleCollider2D coll;
 
-    [Header("¼ì²â²ÎÊý")]
+    [Header("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½")]
     public bool manual;
     public Vector2 bottomOffset;
     public Vector2 leftOffset;
@@ -34,7 +34,7 @@ public class PhysicsCheck : MonoBehaviour
 
     public void Check()
     {
-        isGround = Physics2D.OverlapCircle((Vector2)transform.position+bottomOffset, checkRaduis, groundLayer);
+        isGround = Physics2D.OverlapCircle((Vector2)transform.position+bottomOffset*transform.localScale, checkRaduis, groundLayer);
         touchLeftWall=Physics2D.OverlapCircle((Vector2)transform.position+leftOffset,checkRaduis, groundLayer);
         touchRightWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, checkRaduis, groundLayer);
     }

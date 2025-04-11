@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 1319
       height: 1200
-    spriteID: c59ec711d97e3ec4e861f9f2074e5af2
+    spriteID: d82bc27be5d84d94788dede4a96664d4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 104258231
+    guid: -1559155253
     name: Yellow-Tree
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 1319
         height: 1200
-      spriteId: c59ec711d97e3ec4e861f9f2074e5af2
+      spriteId: d82bc27be5d84d94788dede4a96664d4
     linkedCells: []
     parentIndex: -1
   platformSettings: []

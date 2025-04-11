@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 362
       height: 22
-    spriteID: 95c73441caf2b324c901e8676b1e260b
+    spriteID: 11ec3fe9bf9127248a1450068df63a75
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 720422495
+    guid: -1755078317
     name: walk-Sheet
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 384
         height: 32
-      spriteId: 95c73441caf2b324c901e8676b1e260b
+      spriteId: 11ec3fe9bf9127248a1450068df63a75
     linkedCells: []
     parentIndex: -1
   platformSettings: []

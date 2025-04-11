@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        rb.velocity = new Vector2(inputDirection.x * speed * Time.deltaTime,rb.velocity.y);
+        rb.velocity = new Vector2(inputDirection.x * speed * Time.deltaTime, rb.velocity.y);
 
         int faceDir = (int)transform.localScale.x;
 
