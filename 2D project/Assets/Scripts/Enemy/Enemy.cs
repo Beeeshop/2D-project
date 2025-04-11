@@ -21,11 +21,20 @@ public class Enemy : MonoBehaviour
     public float hurtForce;
     public Transform attacker;
 
+    [Header("检测")]
+    public Vector2 centerOffset;
+    public Vector2 checkSize;
+    public float checkDistance;
+    public LayerMask attackLayer;
+
     [Header("��ʱ��")]
     public float waitTime;
     public float waitTimeCounter;
     public bool wait;
-    [Header("״̬")]
+    public float lostTime;
+    public float lostTimeCounter;
+    
+    [Header("状态")]
     public bool isHurt;
 
     public bool isDead;
@@ -82,17 +91,48 @@ public class Enemy : MonoBehaviour
 
     public void TimeCounter()
     {
-        if(wait)
+        if (wait)
         {
             waitTimeCounter -= Time.deltaTime;
-            if(waitTimeCounter<=0)
+            if (waitTimeCounter <= 0)
             {
                 wait = false;
                 waitTimeCounter = waitTime;
                 transform.localScale = new Vector3(faceDir.x, 1, 1);
             }
         }
+
+        if (!FoundPlayer() && lostTimeCounter > 0)
+        {
+            lostTimeCounter -= Time.deltaTime;
+        }
+        else if (FoundPlayer()) // 添加这个额外的判断，在发现玩家的时候重置丢失时间
+        {
+            lostTimeCounter = lostTime;
+        }
     }
+
+    public bool FoundPlayer()
+    {
+        return Physics2D.BoxCast(transform.position+(Vector3)centerOffset,checkSize,0,faceDir,checkDistance,attackLayer);
+
+    }
+
+    public void SwitchState(NPCState state)
+    {
+        var newState = state switch
+        {
+            NPCState.Patrol => patrolState,
+            NPCState.Chase => chaseState,
+            _ => null
+        };
+
+        currentState.OnExit();
+        currentState = newState;
+        currentState.OnEnter(this);
+    }
+
+    #region 事件执行方法
     public  void    OnnTakeDamage(Transform attackTrans)
     {
         attacker =attackTrans;
@@ -103,7 +143,7 @@ public class Enemy : MonoBehaviour
         isHurt = true;
         anim.SetTrigger("hurt");
         Vector2 dir = new Vector2(transform.position.x - attackTrans.position.x, 0).normalized;
-
+        rb.velocity = new Vector2(0,rb.velocity.y);
         StartCoroutine(OnHurt(dir));
         
 
@@ -125,5 +165,12 @@ public class Enemy : MonoBehaviour
     public void DestroyAfterAnimation ()
     {
         Destroy(this.gameObject);
+    }
+    #endregion
+
+
+    private void OawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position+(Vector3)centerOffset+new Vector3(checkDistance*-transform.localScale.x*faceDir.x,0),0.2f);       
     }
 }
