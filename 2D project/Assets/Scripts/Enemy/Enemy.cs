@@ -52,7 +52,7 @@ public class Enemy : MonoBehaviour
 
 
         currentSpeed = normalSpeed;
-        waitTimeCounter = waitTime;
+        //waitTimeCounter = waitTime;
     }
 
     private void OnEnable()
