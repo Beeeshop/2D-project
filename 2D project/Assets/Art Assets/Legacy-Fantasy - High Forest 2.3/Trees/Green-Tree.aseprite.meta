@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 1319
       height: 1200
-    spriteID: e0afad8888198f74c9566ab7b4a36d7f
+    spriteID: c677b9f5ee56c8048ba3b5b0e56c9ca0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 348164544
+    guid: 782370496
     name: Green-Tree
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 1319
         height: 1200
-      spriteId: e0afad8888198f74c9566ab7b4a36d7f
+      spriteId: c677b9f5ee56c8048ba3b5b0e56c9ca0
     linkedCells: []
     parentIndex: -1
   platformSettings: []

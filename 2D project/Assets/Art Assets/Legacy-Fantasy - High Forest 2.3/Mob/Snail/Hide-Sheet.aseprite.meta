@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 361
       height: 30
-    spriteID: a35500eebfdc4de478380a39406e2143
+    spriteID: 3938d141ae78ee24cba444a9b04c3f63
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1155044000
+    guid: 1009032672
     name: Hide-Sheet
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 384
         height: 32
-      spriteId: a35500eebfdc4de478380a39406e2143
+      spriteId: 3938d141ae78ee24cba444a9b04c3f63
     linkedCells: []
     parentIndex: -1
   platformSettings: []

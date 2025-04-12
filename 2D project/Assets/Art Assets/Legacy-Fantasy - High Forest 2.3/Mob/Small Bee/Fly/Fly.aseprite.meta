@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 40
-    spriteID: ab267bafdf1f418429e400fa18aadc0b
+    spriteID: 3432eb994490fbc4aaaa2ca7011d596c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 49
       width: 35
       height: 28
-    spriteID: 7fdb1058736351041a55a8197021c62d
+    spriteID: 50b2f6b722b26d14b8c8af078cab6e26
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 85
       width: 29
       height: 21
-    spriteID: c640ecd0004f4dd4a9240e5b90c95386
+    spriteID: 43f6d3e33ceb26c459d158d763f12329
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 36
       height: 37
-    spriteID: 2f5ca2137bd7a844e9d71d29d9ebc25d
+    spriteID: 464e836fa0677a943bf84f3a5b958ee6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -204,13 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -63484537
+    guid: 566442587
     name: Fly
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Fly_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -218,8 +218,8 @@ ScriptedImporter:
         y: 19
         width: 20
         height: 40
-      spriteId: ab267bafdf1f418429e400fa18aadc0b
-    - name: Frame_1
+      spriteId: 3432eb994490fbc4aaaa2ca7011d596c
+    - name: Fly_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -227,8 +227,8 @@ ScriptedImporter:
         y: 20
         width: 35
         height: 28
-      spriteId: 7fdb1058736351041a55a8197021c62d
-    - name: Frame_2
+      spriteId: 50b2f6b722b26d14b8c8af078cab6e26
+    - name: Fly_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -236,8 +236,8 @@ ScriptedImporter:
         y: 20
         width: 29
         height: 21
-      spriteId: c640ecd0004f4dd4a9240e5b90c95386
-    - name: Frame_3
+      spriteId: 43f6d3e33ceb26c459d158d763f12329
+    - name: Fly_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -245,7 +245,7 @@ ScriptedImporter:
         y: 20
         width: 36
         height: 37
-      spriteId: 2f5ca2137bd7a844e9d71d29d9ebc25d
+      spriteId: 464e836fa0677a943bf84f3a5b958ee6
     linkedCells: []
     parentIndex: -1
   platformSettings: []

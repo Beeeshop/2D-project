@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 363
       height: 24
-    spriteID: 61717a8f1fca55b4abaaa3f8c25ba485
+    spriteID: f9219c51f357b6f4caa494209b669d82
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 744050590
+    guid: -964659194
     name: Dead-Sheet
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 384
         height: 32
-      spriteId: 61717a8f1fca55b4abaaa3f8c25ba485
+      spriteId: f9219c51f357b6f4caa494209b669d82
     linkedCells: []
     parentIndex: -1
   platformSettings: []

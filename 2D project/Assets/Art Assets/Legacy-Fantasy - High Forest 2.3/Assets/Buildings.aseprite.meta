@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 400
       height: 368
-    spriteID: 6756a3f818abb8d4f82e95a16c26ab74
+    spriteID: 3319da3bdded4cf499a3a5b0b796f482
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1660445297
+    guid: 2066786621
     name: Buildings
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 32
         width: 400
         height: 368
-      spriteId: 6756a3f818abb8d4f82e95a16c26ab74
+      spriteId: 3319da3bdded4cf499a3a5b0b796f482
     linkedCells: []
     parentIndex: -1
   platformSettings: []
