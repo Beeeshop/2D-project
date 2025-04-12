@@ -10,16 +10,16 @@ public class UIManager : MonoBehaviour
  public CharacterEventSO healthEvent;
     private void OnEnable()
     {
-        healthEvent.OnEventRaised+=OnHealthEvent;
+        healthEvent.OnEventRaised += OnHealthEvent;
     }
     private void OnDisable()
     {
-        healthEvent.OnEventRaised-=OnHealthEvent;
+        healthEvent.OnEventRaised -= OnHealthEvent;
     }
 
     private void OnHealthEvent(Character character)
     {
-       var persentage=character.currentHealth/character.maxHealth;
+       var persentage = character.currentHealth / character.maxHealth;
        playerStarBar.OnHealthChange(persentage);
     }
 }

@@ -10,9 +10,9 @@ public class PlayerStarBar : MonoBehaviour
 
     private void Update()
     {
-        if(healthDelayImage.fillAmount>healthImage.fillAmount)
+        if(healthDelayImage.fillAmount > healthImage.fillAmount)
         {
-            healthDelayImage.fillAmount-=Time.deltaTime;
+            healthDelayImage.fillAmount -= Time.deltaTime;
         }
     }
     //血量百分比
