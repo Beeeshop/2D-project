@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -244,13 +245,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1912097461
+    guid: -1985798199
     name: Run
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Run_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -259,7 +260,7 @@ ScriptedImporter:
         width: 39
         height: 29
       spriteId: ddee64df99584284a9532d0c628b12bd
-    - name: Run_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -268,7 +269,7 @@ ScriptedImporter:
         width: 39
         height: 28
       spriteId: a65c84f9e6551294e8a008ea7e97c678
-    - name: Run_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -277,7 +278,7 @@ ScriptedImporter:
         width: 39
         height: 29
       spriteId: 3ca70ada8eff016479007fa2ed9f9af7
-    - name: Run_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -286,7 +287,7 @@ ScriptedImporter:
         width: 39
         height: 27
       spriteId: 52d25b95abdc624478020749f8c12432
-    - name: Run_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -295,7 +296,7 @@ ScriptedImporter:
         width: 38
         height: 26
       spriteId: 2eeceb8c925393c41b6a9f66c11ccebb
-    - name: Run_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -311,3 +312,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 48, y: 32}
+  previousTextureSize: {x: 128, y: 128}
