@@ -200,7 +200,7 @@ public partial class @PlayerInputControl: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""ed32e118-a729-47c6-be74-d72b1dc3300f"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""path"": ""<Keyboard>/k"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
