@@ -6,6 +6,8 @@ using UnityEngine.Events;
 public class Character : MonoBehaviour
 {
     // Start is called before the first frame update
+    [Header("事件监听")]
+    public VoidEventSO newGameEvent;
  [Header("基本属性")]
     public float maxHealth;
     
@@ -21,10 +23,18 @@ public class Character : MonoBehaviour
     public UnityEvent<Character> OnHealthChange;
     public UnityEvent<Transform> OnTakeDamage;
     public UnityEvent OnDie;
-    private void Start()
+    private void NewGame()
     {
         currentHealth = maxHealth;
         OnHealthChange?.Invoke(this);
+    }
+    private void OnEnable()
+    {
+        newGameEvent.OnEventRaised += NewGame;
+    }
+    private void OnDisable()
+    {
+        newGameEvent.OnEventRaised -= NewGame;
     }
 
     private void Update()

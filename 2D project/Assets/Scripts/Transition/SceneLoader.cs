@@ -10,16 +10,23 @@ public class SceneLoader : MonoBehaviour
 {
     public Transform playerTrans;
     public Vector3 firstPosition;
+    public Vector3 menuPosition;
     [Header("事件监听")]
-    public SceneLoadEventSO loadEventSO; 
-   public GameSceneSO firstLoadScene;
+    public SceneLoadEventSO loadEventSO;
+    public VoidEventSO newGameEvent;
 
-   [Header("广播")]
+
+
+    [Header("广播")]
    public VoidEventSO afterSceneLoadedEvent;
     public FadeEventSO fadeEvent;
-
-   [SerializeField] private GameSceneSO currentLoadedScene;
-   private GameSceneSO sceneToLoad;
+    public SceneLoadEventSO unloadedSceneEvent;
+    
+    [Header("场景")]
+    public GameSceneSO firstLoadScene;
+    public GameSceneSO menuScene;
+    [SerializeField] private GameSceneSO currentLoadedScene;
+    private GameSceneSO sceneToLoad;
    private Vector3 positionToGo;
    private bool fadeScreen;
    private bool isLoading;
@@ -30,26 +37,31 @@ public class SceneLoader : MonoBehaviour
         //Addressables.LoadSceneAsync(firstLoadScene.sceneReference,LoadSceneMode.Additive);
         // currentLoadedScene = firstLoadScene;
         // currentLoadedScene.sceneReference.LoadSceneAsync(LoadSceneMode.Additive);
+       
+
     }
     private void Start()
     {
-        NewGame();
+        loadEventSO.RaiseLoadRequestEvent(menuScene, menuPosition, true);
+        //NewGame();
     }
 
     private void OnEnable()
     {
         loadEventSO.LoadRequestEvent += OnLoadRequestEvent;
+        newGameEvent.OnEventRaised += NewGame;
     }
     private void OnDisable()
     {
         loadEventSO.LoadRequestEvent -= OnLoadRequestEvent;
+        newGameEvent.OnEventRaised -= NewGame;
     }
 
 private void NewGame()
 {
     sceneToLoad=firstLoadScene;
     // OnLoadRequestEvent(sceneToLoad,firstPosition,true);
-    loadEventSO.RaiseLoadRequestEvennt(sceneToLoad,firstPosition,true);
+    loadEventSO.RaiseLoadRequestEvent(sceneToLoad,firstPosition,true);
 }
 /// <summary>
 /// 场景事件加载请求
@@ -83,6 +95,7 @@ private void NewGame()
             fadeEvent.FadeIn(fadeDuration);
         }
         yield return new WaitForSeconds(fadeDuration);
+        unloadedSceneEvent.RaiseLoadRequestEvent(sceneToLoad, positionToGo, true);
         yield return currentLoadedScene.sceneReference.UnLoadScene();
         //关闭人物
         playerTrans.gameObject.SetActive(false);

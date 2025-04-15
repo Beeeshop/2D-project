@@ -11,6 +11,6 @@ public class TeleportPoint : MonoBehaviour, IInteractable
     {
         Debug.Log("传送！");
 
-        loadEventSO.RaiseLoadRequestEvennt(sceneToGo, positionToGo, true);
+        loadEventSO.RaiseLoadRequestEvent(sceneToGo, positionToGo, true);
     }
 }
