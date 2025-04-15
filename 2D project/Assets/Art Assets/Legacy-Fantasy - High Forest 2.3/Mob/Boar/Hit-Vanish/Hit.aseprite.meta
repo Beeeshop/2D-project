@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 35
       height: 30
-    spriteID: d96039e243a5f5648a3d2b67b861fb38
+    spriteID: 236a5d236560f5c4f94bfdb6e4b7c93d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 35
       height: 30
-    spriteID: d9c79b734fbceba48a19259aad9a06b5
+    spriteID: a0965905c9dd9644d87ad4c88680e116
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 42
       width: 35
       height: 30
-    spriteID: 50983248c17c706469efe0f3d04441dd
+    spriteID: d3a5fa8bfdccb8249a2e0b84a3ca0a16
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 42
       width: 35
       height: 30
-    spriteID: 6e82c59a31b52dd4bb3cbad2200cfd40
+    spriteID: 7a53c3433cde1414cbbf00d18794ddf2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -204,13 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 339800437
+    guid: 1756787313
     name: Hit
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Hit_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -218,8 +218,8 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 30
-      spriteId: d96039e243a5f5648a3d2b67b861fb38
-    - name: Frame_1
+      spriteId: 236a5d236560f5c4f94bfdb6e4b7c93d
+    - name: Hit_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -227,8 +227,8 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 30
-      spriteId: d9c79b734fbceba48a19259aad9a06b5
-    - name: Frame_2
+      spriteId: a0965905c9dd9644d87ad4c88680e116
+    - name: Hit_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -236,8 +236,8 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 30
-      spriteId: 50983248c17c706469efe0f3d04441dd
-    - name: Frame_3
+      spriteId: d3a5fa8bfdccb8249a2e0b84a3ca0a16
+    - name: Hit_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -245,7 +245,7 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 30
-      spriteId: 6e82c59a31b52dd4bb3cbad2200cfd40
+      spriteId: 7a53c3433cde1414cbbf00d18794ddf2
     linkedCells: []
     parentIndex: -1
   platformSettings: []

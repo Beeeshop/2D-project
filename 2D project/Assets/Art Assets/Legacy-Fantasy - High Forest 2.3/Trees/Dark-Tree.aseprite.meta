@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 1319
       height: 1200
-    spriteID: b625e89e43610c040b9ecc94cbc88312
+    spriteID: 0a83c9c4beed0c64f8942ff1d13125b9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1430664895
+    guid: 1038280243
     name: Dark-Tree
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 1319
         height: 1200
-      spriteId: b625e89e43610c040b9ecc94cbc88312
+      spriteId: 0a83c9c4beed0c64f8942ff1d13125b9
     linkedCells: []
     parentIndex: -1
   platformSettings: []

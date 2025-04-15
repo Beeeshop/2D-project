@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 25
       height: 48
-    spriteID: b159441979b8edf41806264d338936fd
+    spriteID: 64633744d20ef78428818689959c9583
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 35
       height: 41
-    spriteID: 4272c2b8652005e4b86922ef00b7dd5f
+    spriteID: 1fac8af9836e673479dd8e37db0f1836
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 4
       width: 35
       height: 40
-    spriteID: b61624b7d3712794fac092bf7525a301
+    spriteID: d0263d59a7a73e2459bad3d40cdc843b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -184,13 +184,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1951480442
+    guid: -1643622194
     name: Jump-End
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Jump-End_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -198,8 +198,8 @@ ScriptedImporter:
         y: 1
         width: 25
         height: 48
-      spriteId: b159441979b8edf41806264d338936fd
-    - name: Frame_1
+      spriteId: 64633744d20ef78428818689959c9583
+    - name: Jump-End_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -207,8 +207,8 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 41
-      spriteId: 4272c2b8652005e4b86922ef00b7dd5f
-    - name: Frame_2
+      spriteId: 1fac8af9836e673479dd8e37db0f1836
+    - name: Jump-End_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -216,7 +216,7 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 40
-      spriteId: b61624b7d3712794fac092bf7525a301
+      spriteId: d0263d59a7a73e2459bad3d40cdc843b
     linkedCells: []
     parentIndex: -1
   platformSettings: []

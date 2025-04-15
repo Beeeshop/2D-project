@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 35
       height: 48
-    spriteID: 6dbf7b776b021014a86ea910a8fbb09f
+    spriteID: 6013051844f00964ca3fe3edc01a2f6e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 61
       width: 35
       height: 48
-    spriteID: 8a87adeb74f403a438bafc2c15220fba
+    spriteID: 09190f0258c85314bb263c0b9bfa598a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 4
       width: 35
       height: 49
-    spriteID: fab5828496c51ae439046ee8859def0a
+    spriteID: 15942b3249153c647934616799c83027
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 61
       width: 35
       height: 48
-    spriteID: e971d2dc06ab60944981b04a8c209db4
+    spriteID: 3aa10baa27ad8bb4da30e49f34bda6ac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -204,13 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1266177044
+    guid: 161112836
     name: Idle
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Idle_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -218,8 +218,8 @@ ScriptedImporter:
         y: 16
         width: 35
         height: 48
-      spriteId: 6dbf7b776b021014a86ea910a8fbb09f
-    - name: Frame_1
+      spriteId: 6013051844f00964ca3fe3edc01a2f6e
+    - name: Idle_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -227,8 +227,8 @@ ScriptedImporter:
         y: 16
         width: 35
         height: 48
-      spriteId: 8a87adeb74f403a438bafc2c15220fba
-    - name: Frame_2
+      spriteId: 09190f0258c85314bb263c0b9bfa598a
+    - name: Idle_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -236,8 +236,8 @@ ScriptedImporter:
         y: 16
         width: 35
         height: 49
-      spriteId: fab5828496c51ae439046ee8859def0a
-    - name: Frame_3
+      spriteId: 15942b3249153c647934616799c83027
+    - name: Idle_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -245,7 +245,7 @@ ScriptedImporter:
         y: 16
         width: 35
         height: 48
-      spriteId: e971d2dc06ab60944981b04a8c209db4
+      spriteId: 3aa10baa27ad8bb4da30e49f34bda6ac
     linkedCells: []
     parentIndex: -1
   platformSettings: []

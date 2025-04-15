@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 35
       height: 34
-    spriteID: f7a61a2224a251f4fa4dd4d82d1f32c8
+    spriteID: fe77125c3ba4e1d409ad6eb91f5a3048
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 35
       height: 40
-    spriteID: f529c952c99d8ad4495705f97aa7b6fe
+    spriteID: 42b212346b9fdf549bcf244f77d0814f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 52
       width: 23
       height: 57
-    spriteID: c9b61d98f8a4a0847af5072378a71141
+    spriteID: 405869bd529a2044fa8422880c0833b7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 33
       height: 59
-    spriteID: 4d09e9ee42984c1418d4af943ff95fea
+    spriteID: 621787bd62a25d247970cbd87d172d52
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -204,13 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1280562777
+    guid: -1577281541
     name: Jump-Start
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Jump-Start_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -218,8 +218,8 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 34
-      spriteId: f7a61a2224a251f4fa4dd4d82d1f32c8
-    - name: Frame_1
+      spriteId: fe77125c3ba4e1d409ad6eb91f5a3048
+    - name: Jump-Start_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -227,8 +227,8 @@ ScriptedImporter:
         y: 0
         width: 35
         height: 40
-      spriteId: f529c952c99d8ad4495705f97aa7b6fe
-    - name: Frame_2
+      spriteId: 42b212346b9fdf549bcf244f77d0814f
+    - name: Jump-Start_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -236,8 +236,8 @@ ScriptedImporter:
         y: 1
         width: 23
         height: 57
-      spriteId: c9b61d98f8a4a0847af5072378a71141
-    - name: Frame_3
+      spriteId: 405869bd529a2044fa8422880c0833b7
+    - name: Jump-Start_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -245,7 +245,7 @@ ScriptedImporter:
         y: 2
         width: 33
         height: 59
-      spriteId: 4d09e9ee42984c1418d4af943ff95fea
+      spriteId: 621787bd62a25d247970cbd87d172d52
     linkedCells: []
     parentIndex: -1
   platformSettings: []

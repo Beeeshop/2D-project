@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 334
       height: 379
-    spriteID: 87e964b1caa47d4499071af3cea461dd
+    spriteID: 422c69b49a1ff034c8a4a25c038274b3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -937547520
+    guid: 1455789312
     name: Tree-Assets
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 21
         width: 334
         height: 379
-      spriteId: 87e964b1caa47d4499071af3cea461dd
+      spriteId: 422c69b49a1ff034c8a4a25c038274b3
     linkedCells: []
     parentIndex: -1
   platformSettings: []

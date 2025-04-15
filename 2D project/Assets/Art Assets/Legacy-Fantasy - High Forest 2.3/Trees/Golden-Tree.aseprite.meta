@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 1319
       height: 1200
-    spriteID: b928b8728ac124147870635e193f7387
+    spriteID: 7405aaa6810178d42919feec6e76fc77
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 318930502
+    guid: 2061357710
     name: Golden-Tree
     layerFlags: 0
     layerType: 0
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 1319
         height: 1200
-      spriteId: b928b8728ac124147870635e193f7387
+      spriteId: 7405aaa6810178d42919feec6e76fc77
     linkedCells: []
     parentIndex: -1
   platformSettings: []
