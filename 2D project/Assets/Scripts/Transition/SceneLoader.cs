@@ -16,6 +16,7 @@ public class SceneLoader : MonoBehaviour
 
    [Header("广播")]
    public VoidEventSO afterSceneLoadedEvent;
+    public FadeEventSO fadeEvent;
 
    [SerializeField] private GameSceneSO currentLoadedScene;
    private GameSceneSO sceneToLoad;
@@ -77,7 +78,8 @@ private void NewGame()
     {
         if(fadeScreen)
         {
-            //TODO:实现渐入渐出
+            //TODO:变黑
+            fadeEvent.FadeIn(fadeDuration);
         }
         yield return new WaitForSeconds(fadeDuration);
         yield return currentLoadedScene.sceneReference.UnLoadScene();
@@ -105,6 +107,7 @@ private void NewGame()
         if(fadeScreen)
         {
             ///TODO；
+            fadeEvent.FadeOut(fadeDuration);
         }
         isLoading=false;
         //场景加载完成后事件
