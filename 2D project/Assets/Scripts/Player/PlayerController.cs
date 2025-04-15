@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("监听事件")]
+    public SceneLoadEventSO loadEvent;
+    public VoidEventSO afterSceneLoadedEvent;
     public PlayerInputControl InputControl;
     public Vector2 inputDirection;
     [Header("��������")]
@@ -43,11 +47,25 @@ public class PlayerController : MonoBehaviour
     private void OnEnable()
     {
         InputControl.Enable();
+        loadEvent.LoadRequestEvent +=OnLoadEvent;
+        afterSceneLoadedEvent.OnEventRaised+=OnAfterSceneLoadedEvent;
     }
 
     private void OnDisable()
     {
         InputControl.Disable();
+        loadEvent.LoadRequestEvent -=OnLoadEvent;
+        afterSceneLoadedEvent.OnEventRaised-=OnAfterSceneLoadedEvent;
+    }
+
+    private void OnAfterSceneLoadedEvent()
+    {
+        InputControl.Gameplay.Enable();
+    }
+
+    private void OnLoadEvent(GameSceneSO arg0, Vector3 arg1, bool arg2)
+    {
+        InputControl.Gameplay.Disable();
     }
 
     private void Update()

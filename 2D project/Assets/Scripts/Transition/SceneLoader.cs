@@ -48,7 +48,8 @@ public class SceneLoader : MonoBehaviour
 private void NewGame()
 {
     sceneToLoad=firstLoadScene;
-    OnLoadRequestEvent(sceneToLoad,firstPosition,true);
+    // OnLoadRequestEvent(sceneToLoad,firstPosition,true);
+    loadEventSO.RaiseLoadRequestEvennt(sceneToLoad,firstPosition,true);
 }
 /// <summary>
 /// 场景事件加载请求
@@ -110,7 +111,11 @@ private void NewGame()
             fadeEvent.FadeOut(fadeDuration);
         }
         isLoading=false;
-        //场景加载完成后事件
+        if(currentLoadedScene.sceneType == SceneType.Location)
+        {
+             //场景加载完成后事件
         afterSceneLoadedEvent.RaiseEvent();
+        }
+
     }
 }
