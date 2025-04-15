@@ -17,13 +17,13 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: ee7fc55bb746a184ca449585d4702923
   m_SerializeEntries:
-  - m_GUID: 267c1baee2ccfaa47999ab255a1c3ef0
-    m_Address: Assets/Prefabs/BlackBoar .prefab
+  - m_GUID: 2c95e83d17f33c04cab5daacd74f24fc
+    m_Address: Persistent
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2c95e83d17f33c04cab5daacd74f24fc
-    m_Address: Persistent
+  - m_GUID: 40d55580d4efbe44c85506e40754ea83
+    m_Address: Cave
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

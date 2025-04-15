@@ -17,6 +17,16 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 944211eb46ba76441a971ef610cf0555
   m_SerializeEntries:
+  - m_GUID: 267c1baee2ccfaa47999ab255a1c3ef0
+    m_Address: 'BlackBoar '
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e3a0643a1a9bc54c83a3e2cf5c5a5c8
+    m_Address: Snail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 78c02225fa51f8c4c8e6659024194354
     m_Address: Boar
     m_ReadOnly: 0
