@@ -112,10 +112,8 @@ private void NewGame()
         }
         isLoading=false;
         if(currentLoadedScene.sceneType == SceneType.Location)
-        {
              //场景加载完成后事件
         afterSceneLoadedEvent.RaiseEvent();
-        }
 
     }
 }
