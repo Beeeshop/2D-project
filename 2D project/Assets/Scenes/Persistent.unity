@@ -354,8 +354,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad566d8b3c2eb754089f43adfd1809fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTrans: {fileID: 882700544}
+  firstPosition: {x: -10.09, y: 4.13, z: 0}
   loadEventSO: {fileID: 11400000, guid: 641b0a531369e65458cd01a4d9c50c0f, type: 2}
   firstLoadScene: {fileID: 11400000, guid: 4e37015f6a24ca346ace468540d3a831, type: 2}
+  afterSceneLoadedEvent: {fileID: 11400000, guid: 894bcdc728145904fba8bee24dcec410, type: 2}
+  currentLoadedScene: {fileID: 0}
   fadeDuration: 0
 --- !u!1 &457268507
 GameObject:
@@ -564,7 +568,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -34.26, y: -5.62, z: -10}
+  m_LocalPosition: {x: -41.01, y: -5.67, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -957,7 +961,7 @@ Transform:
   m_GameObject: {fileID: 882700542}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.26, y: -6.72, z: 0}
+  m_LocalPosition: {x: -41.01, y: -6.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2576,7 +2580,7 @@ Transform:
   m_GameObject: {fileID: 1978052371}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.26, y: -5.62, z: -10}
+  m_LocalPosition: {x: -41.01, y: -5.67, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2623,6 +2627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b3a1fdc2e43824bad00015695f4d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  afterSceneLoadedEvent: {fileID: 11400000, guid: 894bcdc728145904fba8bee24dcec410, type: 2}
   impulseSource: {fileID: 1994893054}
   cameraShakeEvent: {fileID: 11400000, guid: 6f11d8284ab22b14c86e1e292fb658f7, type: 2}
 --- !u!114 &1978052377

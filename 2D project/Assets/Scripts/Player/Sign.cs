@@ -19,7 +19,10 @@ public class Sign : MonoBehaviour
         playerInput=new PlayerInputControl();
         playerInput.Enable();
     }
-
+    private void OnDisable()
+    {
+        canPress=false;
+    }
     private void OnEnable()
     {
         InputSystem.onActionChange += OnActionChange;
