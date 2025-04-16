@@ -305,6 +305,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8517335019312145381, guid: 267c1baee2ccfaa47999ab255a1c3ef0, type: 3}
+      propertyPath: ID
+      value: bf8125fd-2f2a-47ba-8e7f-c7d43515f6bf
+      objectReference: {fileID: 0}
+    - target: {fileID: -8517335019312145381, guid: 267c1baee2ccfaa47999ab255a1c3ef0, type: 3}
+      propertyPath: persistentType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 146397130975949127, guid: 267c1baee2ccfaa47999ab255a1c3ef0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 37.05
@@ -8911,7 +8919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8ed0ab6d7c09f4a834212dcdc95163, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadGameEvent: {fileID: 11400000, guid: 20092b4914632aa4592ba0657de2bbf2, type: 2}
+  saveDataEvent: {fileID: 11400000, guid: 3144aad2e87432449a21ec3e8d441e17, type: 2}
   spriteRenderer: {fileID: 447796135}
   lightObj: {fileID: 1257561350}
   darkSprite: {fileID: 1402673656, guid: c08caad79df441947b30f37e7a15361f, type: 3}
@@ -9133,6 +9141,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 241511126604887787, guid: 78c02225fa51f8c4c8e6659024194354, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455484790417590559, guid: 78c02225fa51f8c4c8e6659024194354, type: 3}
+      propertyPath: ID
+      value: ea91c195-d9d4-4666-a6fb-86ccc9870c0a
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455484790417590559, guid: 78c02225fa51f8c4c8e6659024194354, type: 3}
+      propertyPath: persistentType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4390506457941708903, guid: 78c02225fa51f8c4c8e6659024194354, type: 3}

@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 1577915626740781102}
   - component: {fileID: 7070719328928421850}
   - component: {fileID: 5301979811522604784}
+  - component: {fileID: 3455484790417590559}
   m_Layer: 8
   m_Name: Boar
   m_TagString: Untagged
@@ -365,3 +366,17 @@ MonoBehaviour:
   isGround: 1
   touchLeftWall: 0
   touchRightWall: 0
+--- !u!114 &3455484790417590559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4390506457941708903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ade05e7fa823a4448b5260a6941343ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  persistentType: 0
+  ID: ed52c9ea-9fce-40f5-9d74-5f002e23f0fc

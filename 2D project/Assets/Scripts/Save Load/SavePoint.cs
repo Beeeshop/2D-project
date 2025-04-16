@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class SavePoint : MonoBehaviour,IInteractable
 {
-    [Header("¹ã²¥")]
-    public VoidEventSO LoadGameEvent;
+    [Header("ï¿½ã²¥")]
+    public VoidEventSO saveDataEvent;
 
-    [Header("±äÁ¿²ÎÊý")]
+    [Header("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½")]
     public SpriteRenderer spriteRenderer;
     public GameObject lightObj;
     public Sprite darkSprite;
@@ -28,8 +28,8 @@ public class SavePoint : MonoBehaviour,IInteractable
             isDone = true;
             spriteRenderer.sprite = lightSprite;
             lightObj.SetActive(true);
-            //TODO:±£´æÊý¾Ý
-            LoadGameEvent.RaiseEvent();
+            //TODO:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            saveDataEvent.RaiseEvent();
 
             this.gameObject.tag = "Untagged";
 
