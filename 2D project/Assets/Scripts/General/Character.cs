@@ -23,11 +23,16 @@ public class Character : MonoBehaviour
     public UnityEvent<Character> OnHealthChange;
     public UnityEvent<Transform> OnTakeDamage;
     public UnityEvent OnDie;
+    private void Start()
+    {
+        currentHealth = maxHealth;
+    }
     private void NewGame()
     {
         currentHealth = maxHealth;
         OnHealthChange?.Invoke(this);
     }
+    
     private void OnEnable()
     {
         newGameEvent.OnEventRaised += NewGame;

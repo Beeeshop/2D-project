@@ -14,7 +14,7 @@ public class Chest : MonoBehaviour, IInteractable
      spriteRenderer = GetComponent<SpriteRenderer>();   
     }
 
-    private void Onable()
+    private void OnEnable()
     {
         spriteRenderer.sprite = isDone ? openSprite : closeSprite;        
     }
