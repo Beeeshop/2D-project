@@ -1370,7 +1370,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Base-01_60
+      name: Settings
       rect:
         serializedVersion: 2
         x: 50
@@ -1896,7 +1896,6 @@ TextureImporter:
       Base-01_58: 331857558
       Base-01_59: 1946585543
       Base-01_6: -1844093543
-      Base-01_60: -1225310231
       Base-01_61: 467949990
       Base-01_62: -1330744507
       Base-01_63: -407273311
@@ -1924,6 +1923,7 @@ TextureImporter:
       Base_Ui_powerFrame: -497272580
       Base_Ui_powerYllow: 808024115
       Base_Uii_healthRed: -432521309
+      Settings: -1225310231
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

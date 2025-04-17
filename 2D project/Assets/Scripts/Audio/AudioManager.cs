@@ -6,26 +6,48 @@ using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
-    [Header("ÊÂ¼ş¼àÌı")]
+    [Header("äº‹ä»¶ç›‘å¬")]
     public PlayAudioEventSO FXEvent;
     public PlayAudioEventSO BGMEvent;
+    public FloatEventSO volumeEvent;
+    public VoidEventSO pauseEvent;
 
-    [Header("×é¼ş")]
+    [Header("å¹¿æ’­")]
+    public FloatEventSO syncVolumeEvent;
+
+    [Header("ç»„ä»¶")]
     public AudioSource BGMSource;
     public AudioSource FXSource;
+    public AudioMixer mixer;
 
     private void OnEnable()
     {
         FXEvent.OnEventRaised += OnFXEvent;
         BGMEvent.OnEventRaised += OnBGMEvent;
+        volumeEvent.OnEventRaised+=OnVolumeEvent;
+        pauseEvent.OnEventRaised+=OnpauseEvent;
     }
+
 
     private void OnDisable()
     {
         FXEvent.OnEventRaised -= OnFXEvent;
         BGMEvent.OnEventRaised -= OnBGMEvent;
+        volumeEvent.OnEventRaised-=OnVolumeEvent;
+        pauseEvent.OnEventRaised-=OnpauseEvent;
     }
 
+    private void OnpauseEvent()
+    { 
+        float amount;
+        mixer.GetFloat("MasterVolume",out amount);
+        syncVolumeEvent.RaiseEvent(amount);
+    }
+
+    private void OnVolumeEvent(float amount)
+    {
+       mixer.SetFloat("MasterVolume",amount*100 - 80);
+    }
     private void OnBGMEvent(AudioClip clip)
     {
         BGMSource.clip = clip;

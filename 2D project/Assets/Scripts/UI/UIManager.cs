@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public PlayerStarBar playerStarBar;
@@ -13,11 +15,23 @@ public class UIManager : MonoBehaviour
     public VoidEventSO loadDataEvent;
     public VoidEventSO gameOverEvent;
     public VoidEventSO backToMenuEvent;
+    public FloatEventSO syncVolumeEvent;
+
+    [Header("广播")]
+    public VoidEventSO pauseEvent;
 
     [Header("组件")]
     public GameObject gameOverPanel;
     public GameObject restartBtn;
+    public Button SettingsBtn;
+    public GameObject pausePanel;
+    public Slider volumeSlider;
 
+
+    private void Awake()
+    {
+        SettingsBtn.onClick.AddListener(TogglePausePanel);
+    }
     private void OnEnable()
     {
         healthEvent.OnEventRaised += OnHealthEvent;
@@ -25,6 +39,7 @@ public class UIManager : MonoBehaviour
         loadDataEvent.OnEventRaised += OnloadDataEvent;
         gameOverEvent.OnEventRaised += OnGameOverEvent;
         backToMenuEvent.OnEventRaised += OnloadDataEvent;
+        syncVolumeEvent.OnEventRaised+=OnSyncVolumeEvent;
     }
     private void OnDisable()
     {
@@ -33,8 +48,27 @@ public class UIManager : MonoBehaviour
         loadDataEvent.OnEventRaised -= OnloadDataEvent;
         gameOverEvent.OnEventRaised -= OnGameOverEvent;
         backToMenuEvent.OnEventRaised -= OnloadDataEvent;
+        syncVolumeEvent.OnEventRaised-=OnSyncVolumeEvent;
     }
 
+    private void OnSyncVolumeEvent(float amount)
+    {
+       volumeSlider.value=(amount+80) / 100;
+    }
+
+    private void TogglePausePanel()
+    {
+            if(pausePanel.activeInHierarchy)
+            {
+                pausePanel.SetActive(false);
+                Time.timeScale=1;
+            }else
+            {
+                pauseEvent.RaiseEvent();
+                pausePanel.SetActive(true);
+                Time.timeScale=0;
+            }
+    }
     private void OnGameOverEvent()
     {
         //Debug.Log("DEAD");
