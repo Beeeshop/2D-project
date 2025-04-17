@@ -437,6 +437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 301290316}
   - component: {fileID: 301290317}
+  - component: {fileID: 301290318}
   m_Layer: 0
   m_Name: SceneLoad Manager
   m_TagString: Untagged
@@ -483,6 +484,20 @@ MonoBehaviour:
   menuScene: {fileID: 11400000, guid: f86475c0f3eae08449de33fa9b5e9531, type: 2}
   currentLoadedScene: {fileID: 0}
   fadeDuration: 1
+--- !u!114 &301290318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301290315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ade05e7fa823a4448b5260a6941343ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  persistentType: 0
+  ID: e5187343-f7c4-477c-b960-d659f88f66b8
 --- !u!1 &333525917
 GameObject:
   m_ObjectHideFlags: 0
