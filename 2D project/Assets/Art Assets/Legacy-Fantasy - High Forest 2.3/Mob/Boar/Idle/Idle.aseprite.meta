@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -204,13 +205,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 161112836
+    guid: 1266177044
     name: Idle
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Idle_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,7 +220,7 @@ ScriptedImporter:
         width: 40
         height: 27
       spriteId: aa32c0503919a284d8c86f19c47aa0ad
-    - name: Idle_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,7 +229,7 @@ ScriptedImporter:
         width: 42
         height: 26
       spriteId: 1e7999feca88a0d40bb43cfedb3cb1f5
-    - name: Idle_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,7 +238,7 @@ ScriptedImporter:
         width: 42
         height: 27
       spriteId: 335af77b20f32a84489b5984d5c19867
-    - name: Idle_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -253,3 +254,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 48, y: 32}
+  previousTextureSize: {x: 128, y: 128}

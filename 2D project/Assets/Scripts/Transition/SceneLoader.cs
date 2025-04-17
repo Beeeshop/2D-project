@@ -14,7 +14,7 @@ public class SceneLoader : MonoBehaviour,ISaveable
     [Header("事件监听")]
     public SceneLoadEventSO loadEventSO;
     public VoidEventSO newGameEvent;
-
+    public VoidEventSO backToMenuEvent;
 
 
     [Header("广播")]
@@ -50,6 +50,7 @@ public class SceneLoader : MonoBehaviour,ISaveable
     {
         loadEventSO.LoadRequestEvent += OnLoadRequestEvent;
         newGameEvent.OnEventRaised += NewGame;
+        backToMenuEvent.OnEventRaised += OnBackToMenuEvent;
 
         ISaveable saveable = this;
         saveable.RegisterSaveData();
@@ -58,12 +59,19 @@ public class SceneLoader : MonoBehaviour,ISaveable
     {
         loadEventSO.LoadRequestEvent -= OnLoadRequestEvent;
         newGameEvent.OnEventRaised -= NewGame;
+        backToMenuEvent.OnEventRaised -= OnBackToMenuEvent;
 
         ISaveable saveable = this;
         saveable.UnRegisterSaveData();
     }
 
-private void NewGame()
+    private void OnBackToMenuEvent()
+    {
+        sceneToLoad = menuScene;
+        loadEventSO.RaiseLoadRequestEvent(sceneToLoad, menuPosition, true);
+    }
+
+    private void NewGame()
 {
     sceneToLoad=firstLoadScene;
     // OnLoadRequestEvent(sceneToLoad,firstPosition,true);
@@ -153,8 +161,8 @@ private void NewGame()
         var playerID = playerTrans.GetComponent<DataDefinition>().ID;
         if(data.characterPosDict.ContainsKey(playerID))
         {
-            positionToGo = data.characterPosDict[playerID];
             sceneToLoad = data.GetSavedScene();
+            positionToGo = data.characterPosDict[playerID];
 
             OnLoadRequestEvent(sceneToLoad, positionToGo, true); 
         }

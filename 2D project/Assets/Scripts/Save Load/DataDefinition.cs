@@ -12,7 +12,7 @@ public class DataDefinition : MonoBehaviour
         if(persistentType == PersistentType.ReadWrite)
         {
                 if(ID == string.Empty)
-                ID = System.Guid.NewGuid().ToString();
+                   ID = System.Guid.NewGuid().ToString();
         }
         else
         {

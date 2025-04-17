@@ -7,11 +7,15 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [Header("监听事件")]
-    public SceneLoadEventSO loadEvent;
+    public SceneLoadEventSO sceneLoadEvent;
     public VoidEventSO afterSceneLoadedEvent;
+    public VoidEventSO loadDataEvent;
+    public VoidEventSO backToMenuEvent;
+
     public PlayerInputControl InputControl;
     public Vector2 inputDirection;
-    [Header("��������")]
+
+    [Header("基本参数")]
     private Rigidbody2D rb;
     private PhysicsCheck physicsCheck;
     private PlayerAnimation playerAnimation;
@@ -42,21 +46,28 @@ public class PlayerController : MonoBehaviour
         InputControl.Gameplay.Attack.started += PlayerAttack;
 
         coll = GetComponent<Collider2D>();
+        InputControl.Enable();
     }
 
     private void OnEnable()
     {
-        InputControl.Enable();
-        loadEvent.LoadRequestEvent +=OnLoadEvent;
-        afterSceneLoadedEvent.OnEventRaised+=OnAfterSceneLoadedEvent;
+        
+        sceneLoadEvent.LoadRequestEvent +=OnLoadEvent;
+        afterSceneLoadedEvent.OnEventRaised +=OnAfterSceneLoadedEvent;
+        loadDataEvent.OnEventRaised += OnLoadDataEvent;
+        backToMenuEvent.OnEventRaised += OnLoadDataEvent;
     }
 
     private void OnDisable()
     {
         InputControl.Disable();
-        loadEvent.LoadRequestEvent -=OnLoadEvent;
-        afterSceneLoadedEvent.OnEventRaised-=OnAfterSceneLoadedEvent;
+        sceneLoadEvent.LoadRequestEvent -=OnLoadEvent;
+        afterSceneLoadedEvent.OnEventRaised -=OnAfterSceneLoadedEvent;
+        loadDataEvent.OnEventRaised -= OnLoadDataEvent;
+        backToMenuEvent.OnEventRaised -= OnLoadDataEvent;
     }
+
+   
 
     private void OnAfterSceneLoadedEvent()
     {
@@ -67,7 +78,11 @@ public class PlayerController : MonoBehaviour
     {
         InputControl.Gameplay.Disable();
     }
-
+    //读取游戏进度
+    private void OnLoadDataEvent()
+    {
+        isDead = false;
+    }
     private void Update()
     {
         inputDirection = InputControl.Gameplay.Move.ReadValue<Vector2>();

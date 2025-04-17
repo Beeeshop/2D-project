@@ -4,11 +4,15 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 
+[DefaultExecutionOrder(-100)]
+
 public class DataManager : MonoBehaviour
 {
     public static DataManager instance;
     [Header("事件监听")]
     public VoidEventSO saveDataEvent;
+
+    public VoidEventSO loadDataEvent;
 
     private List<ISaveable> saveableList =new List<ISaveable>();
     private Data saveData;
@@ -24,10 +28,12 @@ public class DataManager : MonoBehaviour
     private void OnEnable()
     {
         saveDataEvent.OnEventRaised += Save;
+        loadDataEvent.OnEventRaised += Load;
     }
     private void OnDisable()
     {
         saveDataEvent.OnEventRaised -= Save;
+        loadDataEvent.OnEventRaised -= Load;
     }
 
     private void Update()
@@ -40,7 +46,7 @@ public class DataManager : MonoBehaviour
 
     public void RegisterSaveData(ISaveable saveable)
     {
-        if(!saveableList.Contains(saveable))
+       if(!saveableList.Contains(saveable))
         {
             saveableList.Add(saveable);
         }
