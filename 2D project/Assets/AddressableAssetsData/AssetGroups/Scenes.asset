@@ -27,6 +27,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c9820ac5359abc45a45b09cd577d988
+    m_Address: Assets/Scenes/HoneyComb.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7c426f91ab88837458f54641d7902194
     m_Address: Menu
     m_ReadOnly: 0
