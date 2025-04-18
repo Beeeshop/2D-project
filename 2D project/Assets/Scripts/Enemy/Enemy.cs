@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.ResourceManagement.ResourceProviders.Simulation;
 
 public class Enemy : MonoBehaviour
 {
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
 
     [HideInInspector]public Animator anim;
     [HideInInspector]public PhysicsCheck physicsCheck;
@@ -14,6 +15,8 @@ public class Enemy : MonoBehaviour
     public float normalSpeed;
 
     public float chaseSpeed;
+
+    public Vector3 spwanPoint;
 
     [HideInInspector]public float currentSpeed;
 
@@ -112,7 +115,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public bool FoundPlayer()
+    public  virtual bool FoundPlayer()
     {
         return Physics2D.BoxCast(transform.position+(Vector3)centerOffset,checkSize,0,faceDir,checkDistance,attackLayer);
 
@@ -169,8 +172,13 @@ public class Enemy : MonoBehaviour
     #endregion
 
 
-    private void OawGizmosSelected()
+    public virtual void OawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.position+(Vector3)centerOffset+new Vector3(checkDistance*-transform.localScale.x*faceDir.x,0),0.2f);       
+    }
+
+    public virtual Vector3 GetNewPoint()
+    {
+        return transform.position;
     }
 }

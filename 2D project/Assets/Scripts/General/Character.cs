@@ -123,7 +123,7 @@ public class Character : MonoBehaviour,ISaveable
     {
         if(data.characterPosDict.ContainsKey(GetDataID().ID))
         {
-            transform.position = data.characterPosDict[GetDataID().ID];
+            // transform.position = data.characterPosDict[GetDataID().ID];
             this.currentHealth = data.floatSavedData[GetDataID().ID + "health"];
 
             //通知UI更新
