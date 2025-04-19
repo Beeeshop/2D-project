@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -284,13 +285,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -357079590
+    guid: 842948034
     name: Jump
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Jump_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +300,7 @@ ScriptedImporter:
         width: 33
         height: 58
       spriteId: ca4d5365a87200c419d8541b474db0ae
-    - name: Jump_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +309,7 @@ ScriptedImporter:
         width: 31
         height: 55
       spriteId: 570b30b738bbe9f49b59b77fd94bbe89
-    - name: Jump_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +318,7 @@ ScriptedImporter:
         width: 30
         height: 57
       spriteId: a43b1ec6f42260e42a21bebe04b0e53e
-    - name: Jump_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +327,7 @@ ScriptedImporter:
         width: 29
         height: 55
       spriteId: 777cde32e5a703249878c1c00c49e286
-    - name: Jump_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +336,7 @@ ScriptedImporter:
         width: 29
         height: 52
       spriteId: 20585e2ef096f654995936dfa5da41e5
-    - name: Jump_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +345,7 @@ ScriptedImporter:
         width: 27
         height: 51
       spriteId: e8f835c04306aa140be9e6ff5b820030
-    - name: Jump_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +354,7 @@ ScriptedImporter:
         width: 25
         height: 53
       spriteId: a467b1f714d9992488c4dd06667450c4
-    - name: Jump_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -369,3 +370,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 48, y: 64}
+  previousTextureSize: {x: 128, y: 256}
