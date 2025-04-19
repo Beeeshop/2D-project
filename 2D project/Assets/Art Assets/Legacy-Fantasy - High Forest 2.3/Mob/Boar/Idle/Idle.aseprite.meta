@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -133,7 +132,7 @@ ScriptedImporter:
       y: 73
       width: 40
       height: 27
-    spriteID: e8bb087873a08024f9cf5258b0e44d3b
+    spriteID: 57bf9e26259e4844d85143df6f849fef
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,7 +152,7 @@ ScriptedImporter:
       y: 39
       width: 42
       height: 26
-    spriteID: 2d64c92ea5fc593489b18c5acbcb63ba
+    spriteID: c57e7c014a1cc3247b59c0e20415c3ff
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -173,7 +172,7 @@ ScriptedImporter:
       y: 4
       width: 42
       height: 27
-    spriteID: 80b2b85a65c27604e89660e7b1ad2a64
+    spriteID: a43d3b24e66e08d4584ed321e5cba754
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -193,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 41
       height: 27
-    spriteID: d65fc6bb8b344124a983a3f261ad7bc8
+    spriteID: 356cf2b4b6e3db14aabdbc0739663684
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -205,13 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1266177044
+    guid: 161112836
     name: Idle
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Idle_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,8 +218,8 @@ ScriptedImporter:
         y: 0
         width: 40
         height: 27
-      spriteId: e8bb087873a08024f9cf5258b0e44d3b
-    - name: Frame_1
+      spriteId: 57bf9e26259e4844d85143df6f849fef
+    - name: Idle_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,8 +227,8 @@ ScriptedImporter:
         y: 0
         width: 42
         height: 26
-      spriteId: 2d64c92ea5fc593489b18c5acbcb63ba
-    - name: Frame_2
+      spriteId: c57e7c014a1cc3247b59c0e20415c3ff
+    - name: Idle_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,8 +236,8 @@ ScriptedImporter:
         y: 0
         width: 42
         height: 27
-      spriteId: 80b2b85a65c27604e89660e7b1ad2a64
-    - name: Frame_3
+      spriteId: a43d3b24e66e08d4584ed321e5cba754
+    - name: Idle_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -246,7 +245,7 @@ ScriptedImporter:
         y: 0
         width: 41
         height: 27
-      spriteId: d65fc6bb8b344124a983a3f261ad7bc8
+      spriteId: 356cf2b4b6e3db14aabdbc0739663684
     linkedCells: []
     parentIndex: -1
   platformSettings: []
@@ -254,4 +253,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 48, y: 32}
-  previousTextureSize: {x: 128, y: 128}

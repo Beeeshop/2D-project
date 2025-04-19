@@ -9,6 +9,7 @@ public class Chest : MonoBehaviour, IInteractable
     public Sprite closeSprite;
     public bool isDone;
 
+
     private void Awake()
     {
      spriteRenderer = GetComponent<SpriteRenderer>();   
@@ -18,19 +19,27 @@ public class Chest : MonoBehaviour, IInteractable
     {
         spriteRenderer.sprite = isDone ? openSprite : closeSprite;        
     }
-    public void TriggerAction()
+    public void TriggerAction(Character character)
     {
         Debug.Log("Open Chest!");
         if(!isDone)
         {
-            OpenChest();
+            OpenChest(character);
         }
     }
-    private void OpenChest()
+
+ 
+    private void OpenChest(Character character)
     {
         spriteRenderer.sprite = openSprite;
         isDone = true;
         this.gameObject.tag = "Untagged";
+        if (character != null)
+        {
+            character.Heal(50f); // 回复20点生命
+            Debug.Log("Player healed by chest!");
+        }
     }
+    
  
 }

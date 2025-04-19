@@ -9,12 +9,14 @@ public class Sign : MonoBehaviour
     private PlayerInputControl playerInput;
     private Animator anim;
     public Transform playerTrans;
+
+    private Character playerCharacter;
     public GameObject signSprite;
     private IInteractable targetItem;
     private bool canPress;
     private void Awake()
     {
-        
+        playerCharacter = playerTrans.GetComponent<Character>();
         anim=signSprite.GetComponent<Animator>();
         playerInput=new PlayerInputControl();
         playerInput.Enable();
@@ -55,7 +57,7 @@ public class Sign : MonoBehaviour
     {
         if(canPress)
         {
-            targetItem.TriggerAction();
+            targetItem.TriggerAction(playerCharacter);
             GetComponent<AudioDefination>()?.PlayAudioClip();
         }
     }

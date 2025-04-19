@@ -9455,7 +9455,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_445
+      name: Heal_1
       rect:
         serializedVersion: 2
         x: 240
@@ -9518,7 +9518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_448
+      name: Heal_2
       rect:
         serializedVersion: 2
         x: 288
@@ -9602,7 +9602,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_452
+      name: Heal_3
       rect:
         serializedVersion: 2
         x: 240
@@ -9665,7 +9665,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_455
+      name: Heal_4
       rect:
         serializedVersion: 2
         x: 288
@@ -9883,6 +9883,10 @@ TextureImporter:
       Ground2-3: -1061834415
       Ground2-4: 1425094245
       Ground2-5: -1011149602
+      Heal_1: 1314394142
+      Heal_2: 1232170423
+      Heal_3: -622624742
+      Heal_4: 426317113
       Tiles_0: -1559680711
       Tiles_1: 1619695065
       Tiles_10: -2109185733
@@ -10244,18 +10248,14 @@ TextureImporter:
       Tiles_442: 1430122960
       Tiles_443: 1066561041
       Tiles_444: -619380577
-      Tiles_445: 1314394142
       Tiles_446: 1331291000
       Tiles_447: -1958455991
-      Tiles_448: 1232170423
       Tiles_449: 1348287432
       Tiles_45: 776161423
       Tiles_450: -998045007
       Tiles_451: -1455357413
-      Tiles_452: -622624742
       Tiles_453: -1080979623
       Tiles_454: -2049178223
-      Tiles_455: 426317113
       Tiles_456: 2111973910
       Tiles_457: -1211960597
       Tiles_458: -369376733

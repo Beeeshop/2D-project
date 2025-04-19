@@ -17,6 +17,11 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: ee7fc55bb746a184ca449585d4702923
   m_SerializeEntries:
+  - m_GUID: 2be518aea54fdc749b5078260f4ec708
+    m_Address: Chest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2c95e83d17f33c04cab5daacd74f24fc
     m_Address: Persistent
     m_ReadOnly: 0
@@ -28,7 +33,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5c9820ac5359abc45a45b09cd577d988
-    m_Address: Assets/Scenes/HoneyComb.unity
+    m_Address: HoneyComb
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

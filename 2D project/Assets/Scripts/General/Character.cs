@@ -130,4 +130,10 @@ public class Character : MonoBehaviour,ISaveable
             OnHealthChange?.Invoke(this);
         }
     }
+
+    public void Heal(float amount)
+    {
+        currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
+        OnHealthChange?.Invoke(this);
+    }
 }

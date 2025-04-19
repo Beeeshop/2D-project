@@ -21,7 +21,7 @@ public class SavePoint : MonoBehaviour,IInteractable
         lightObj.SetActive(isDone);
     }
 
-    public void TriggerAction()
+    public void TriggerAction(Character character)
     {
         if(!isDone) 
        {

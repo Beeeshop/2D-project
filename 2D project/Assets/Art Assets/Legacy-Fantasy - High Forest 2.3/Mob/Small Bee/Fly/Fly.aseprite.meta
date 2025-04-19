@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -133,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 40
-    spriteID: 391b6c6ab0605f14db2d2fdcec32a65c
+    spriteID: 9ea4dca5f89585f479e09b4212036b2c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,7 +152,7 @@ ScriptedImporter:
       y: 49
       width: 35
       height: 28
-    spriteID: ea85c12d978ea024aa9b796815e2e544
+    spriteID: fc8626be4444feb47b34f89ad94561b5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -173,7 +172,7 @@ ScriptedImporter:
       y: 85
       width: 29
       height: 21
-    spriteID: d411489cbea1f8f4c8cc638dd8527d67
+    spriteID: c3829a3b24ae45b41acb9ab961c6aeb1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -193,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 36
       height: 37
-    spriteID: 0abefabaa1050074ca438ff9932baf0c
+    spriteID: f9364e228c91f2540a0e206cadfcc461
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -205,13 +204,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -63484537
+    guid: 566442587
     name: Fly
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Fly_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -219,8 +218,8 @@ ScriptedImporter:
         y: 19
         width: 20
         height: 40
-      spriteId: 391b6c6ab0605f14db2d2fdcec32a65c
-    - name: Frame_1
+      spriteId: 9ea4dca5f89585f479e09b4212036b2c
+    - name: Fly_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -228,8 +227,8 @@ ScriptedImporter:
         y: 20
         width: 35
         height: 28
-      spriteId: ea85c12d978ea024aa9b796815e2e544
-    - name: Frame_2
+      spriteId: fc8626be4444feb47b34f89ad94561b5
+    - name: Fly_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -237,8 +236,8 @@ ScriptedImporter:
         y: 20
         width: 29
         height: 21
-      spriteId: d411489cbea1f8f4c8cc638dd8527d67
-    - name: Frame_3
+      spriteId: c3829a3b24ae45b41acb9ab961c6aeb1
+    - name: Fly_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -246,7 +245,7 @@ ScriptedImporter:
         y: 20
         width: 36
         height: 37
-      spriteId: 0abefabaa1050074ca438ff9932baf0c
+      spriteId: f9364e228c91f2540a0e206cadfcc461
     linkedCells: []
     parentIndex: -1
   platformSettings: []
@@ -254,4 +253,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}
-  previousTextureSize: {x: 128, y: 128}
