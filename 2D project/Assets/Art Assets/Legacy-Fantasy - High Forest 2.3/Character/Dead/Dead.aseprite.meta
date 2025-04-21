@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -284,13 +285,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1402920708
+    guid: -158744556
     name: Dead
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Dead_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +300,7 @@ ScriptedImporter:
         width: 35
         height: 47
       spriteId: ac76d316b4f7a0645806494baa277f03
-    - name: Dead_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +309,7 @@ ScriptedImporter:
         width: 34
         height: 46
       spriteId: ca305f892586cb44682fc664785fb361
-    - name: Dead_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +318,7 @@ ScriptedImporter:
         width: 34
         height: 37
       spriteId: 2818c69fb28fb134091f24f41c66df54
-    - name: Dead_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +327,7 @@ ScriptedImporter:
         width: 34
         height: 35
       spriteId: b46dfb1d5212cd642a33bd4cb321129b
-    - name: Dead_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +336,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: c970a779992b6644092706c73c92c906
-    - name: Dead_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +345,7 @@ ScriptedImporter:
         width: 39
         height: 31
       spriteId: 8976395f500ef1d45be58299b5f0b812
-    - name: Dead_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +354,7 @@ ScriptedImporter:
         width: 50
         height: 24
       spriteId: 2ffd541eab3669f4da784dfe60eb7c3e
-    - name: Dead_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -369,3 +370,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 80, y: 64}
+  previousTextureSize: {x: 128, y: 256}
